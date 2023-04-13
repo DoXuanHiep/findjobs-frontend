@@ -1,0 +1,183 @@
+.container-background {
+  // padding: 10px 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.body-top-top {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  .body-left {
+    width: 80%;
+    .advertisement {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      min-width: 680px;
+      padding: 60px 60px 60px 0px;
+      background: #c3efef;
+      border-radius: 60px;
+      justify-content: space-around;
+      .image {
+        object-fit: cover;
+        img {
+          width: 350px;
+        }
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .content-create-cv {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 45px;
+          color: #ffffff;
+          text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.8);
+          text-align: center;
+        }
+      }
+      .div-create-cv {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        .button-create-cv {
+          width: auto;
+          margin-top: 20px;
+          background: #00ced1;
+          box-shadow: 0px 4px 50px 10px rgba(0, 251, 255, 0.75);
+          border-radius: 15px;
+          font-weight: 700;
+          font-size: 20px;
+          color: #ffffff;
+          padding: 10px 15px;
+          border: 1px solid transparent;
+        }
+      }
+    }
+    .created-cv {
+      margin-top: 50px;
+      // width: 50%;
+      .header-create-cv {
+        padding: 10px 0 10px 25px;
+        background: #9be4e4;
+        border-radius: 40px 40px 0px 0px;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        text-shadow: 0px 4px 25px rgb(0 0 0 / 75%);
+        justify-content: space-between;
+        .title-create-cv {
+          margin-left: 10px;
+        }
+        .button-add-upload {
+          margin-right: 30px;
+        }
+        .add-cv-btn {
+          margin-right: 15px;
+          color: #ffffff;
+          font-size: 2.5rem;
+          &:hover {
+            color: #00ced1;
+          }
+        }
+        .upload-cv-btn {
+          color: #ffffff;
+          font-size: 2.5rem;
+          &:hover {
+            color: #00ced1;
+          }
+        }
+        .upload-cv {
+          opacity: 0;
+          position: absolute;
+          z-index: -1;
+        }
+      }
+      .body-create-cv {
+        padding: 40px;
+        width: 100%;
+        background: #e9fbfa;
+        border-radius: 0px 0px 60px 60px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  .body-right {
+    .Recommended-job {
+      width: fit-content;
+
+      .header-job {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background: #9be4e4;
+        padding: 15px 0;
+        border-radius: 40px 40px 0px 0px;
+        color: #ffffff;
+        text-shadow: 0px 4px 25px rgba(0, 0, 0, 0.75);
+      }
+      .body-job {
+        background: #e9fbfa;
+        border-radius: 0px 0px 40px 40px;
+        padding: 20px 5px;
+        .address {
+          background: #ffffff;
+          border-radius: 40px;
+          margin: 0 8px;
+        }
+      }
+
+      .content-job {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        padding: 30px 15px 0 10px;
+      }
+    }
+  }
+}
+
+.body-bottom {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 20px;
+  margin: 100px 0px;
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 75px;
+    }
+  }
+
+  .idea-job {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+}

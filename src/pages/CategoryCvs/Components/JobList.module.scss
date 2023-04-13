@@ -1,0 +1,67 @@
+.main {
+  margin-top: 5rem;
+  display: flex;
+  width: 100%;
+}
+
+.job-list {
+  margin: auto;
+  width: 70%;
+}
+
+.title {
+  padding: 40px;
+  background-color: #9be4e4;
+  border-radius: 60px 60px 0px 0px;
+}
+
+.title p {
+  margin: 0;
+  padding: 0;
+  text-shadow: 0px 4px 25px rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.title span {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.list {
+  // padding: 20px;
+  height: 800px;
+  min-height: fit-content;
+  overflow-y: scroll;
+}
+
+.recomended-list {
+  margin-right: 60px;
+}
+
+.break {
+  height: 5rem;
+}
+
+.page-controller {
+  display: flex;
+  justify-content: center;
+}
+
+.page-controller button {
+  background-color: transparent;
+  border: none;
+}
+.page-controller button svg:hover {
+  fill: #99e2e2;
+}
+@media only screen and (max-width: 1000px) {
+  .job-list {
+    margin: auto;
+    width: 100%;
+  }
+}

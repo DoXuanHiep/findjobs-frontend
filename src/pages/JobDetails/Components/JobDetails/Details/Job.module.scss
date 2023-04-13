@@ -1,0 +1,167 @@
+a {
+  text-decoration: none;
+}
+
+.card {
+  margin: auto;
+  margin-top: 80px;
+  margin-left: 80px;
+  background: #e9fbfa;
+  box-shadow: 0px 4px 20px 5px rgba(119, 116, 116, 0.25);
+  border-radius: 40px;
+  width: 350px;
+  height: max-content;
+  padding: 10px;
+  align-items: center;
+}
+.card .detail {
+  margin: auto;
+  margin-top: 19px;
+  display: block;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px 5px rgba(119, 116, 116, 0.25);
+  border-radius: 40px;
+  width: 320px;
+  height: max-content;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+.makeup1 .recomment {
+  // margin-left: 40px;
+  text-align: center;
+}
+.recomment h3 {
+  color: #ffffff;
+  font-size: 25px;
+  padding-top: 25px;
+  text-shadow: 0px 4px 25px rgba(0, 0, 0, 0.75);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+}
+.company {
+  padding: 10;
+  display: flex;
+  justify-content: center;
+}
+.company1 {
+  display: flex;
+  justify-content: center;
+}
+.company2 {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-left: 20px;
+  display: block;
+  margin-bottom: 10px;
+  color: #000000;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+}
+hr {
+  width: 230px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000000;
+}
+.company img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.company .info {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.company1 .info1 {
+  margin-left: 9px;
+  margin-top: 9px;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+.info1 h3 {
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.info h3 {
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.info p {
+  color: #808080;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.job {
+  padding: 0;
+  margin: 0;
+  margin-top: -3px;
+}
+
+.job ul {
+  list-style: none;
+}
+
+.card ul li {
+  color: #808080;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.card ul .name {
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+// .makeup {
+//     // margin-top: -10px;
+//     margin-left: -10px;
+//     width: 242px;
+//     height: 30.8px;
+//     background: #FA8072;
+//     border-radius: 0px 0px 40px 40px;
+// }
+.makeup1 {
+  margin-top: -10px;
+  margin-left: -10px;
+  width: 350px;
+  height: 80px;
+  background: #99e2e2;
+  border-radius: 40px 40px 0px 0px;
+}
+@media only screen and (max-width: 1000px) {
+  .card {
+    margin: auto;
+    margin-top: 80px;
+    background: #e9fbfa;
+    box-shadow: 0px 4px 20px 5px rgba(119, 116, 116, 0.25);
+    border-radius: 40px;
+    width: 350px;
+    height: max-content;
+    padding: 10px;
+    align-items: center;
+  }
+}

@@ -1,0 +1,51 @@
+.footer {
+    display: block;
+    margin: 3rem 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin: 0 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav a {
+    color: #000000;
+}
+
+.social-network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 40px 0;
+    padding-top: 15px;
+    a {
+        padding: 0;
+        margin: 0 20px;
+    }
+    div {
+        // margin: 0 20px;
+        padding: 0;
+        img {
+            
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
